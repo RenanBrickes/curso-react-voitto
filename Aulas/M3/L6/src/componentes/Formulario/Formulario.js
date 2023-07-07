@@ -8,7 +8,7 @@ export const Formulario = () => {
                 <div className='imagem-input'>
                     <div>
                         <label>Imagem da capa</label>
-                        <img className='box-imagem' alt="" />
+                        <img className='box-imagem' />
                         <div className='box-input'>
                             <label className='file-upload'>
                                 <input
