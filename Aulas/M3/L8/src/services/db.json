@@ -1,0 +1,25 @@
+{
+  "livros": [],
+  "tipos": [
+    {
+      "id": 1,
+      "nome": "Literatura"
+    },
+    {
+      "id": 2,
+      "nome": "Romance"
+    },
+    {
+      "id": 3,
+      "nome": "Ficção"
+    },
+    {
+      "id": 4,
+      "nome": "Horror"
+    },
+    {
+      "id": 5,
+      "nome": "Aventura"
+    }
+  ]
+}
