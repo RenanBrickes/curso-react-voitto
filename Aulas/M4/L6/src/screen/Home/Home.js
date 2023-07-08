@@ -47,8 +47,8 @@ function Home() {
                 <Formulario />
             </div>
             <div className='div-card'>
-                {livros && livros.livros.map((value) => {
-                    return <Card titulo={value.tituloLivro} imagem={value.imagem} tituloLivro={value.tipoLivro} descricao={value.descricao} />
+                {livros && livros.map((value, index) => {
+                    return <Card key={index} tipo={value.tipo} livros={value.livros} />
                 })}
             </div>
         </div>
