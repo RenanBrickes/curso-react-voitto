@@ -48,7 +48,7 @@ function Home() {
             </div>
             <div className='div-card'>
                 {livros && livros.map((value) => {
-                    return <Card titulo={value.titulo} imagem={value.imagem} tituloLivro={value.tipoLivro} descricao={value.descricao} />
+                    return <Card titulo={value.tituloLivro} imagem={value.imagem} tituloLivro={value.tipoLivro} descricao={value.descricao} />
                 })}
             </div>
         </div>
